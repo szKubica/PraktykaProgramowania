@@ -25,6 +25,9 @@ def multiply(a: int, b: int) -> int:
 
 
 
+
+
+
 def divide(a: int, b: int) -> float:
     """
     Dzielenie liczb
