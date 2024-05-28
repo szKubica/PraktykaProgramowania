@@ -1,9 +1,31 @@
-# przykladowe funkcje utils .py
-def add (a: int , b: int) -> int:
+"""
+Kalkulator
+"""
+
+
+def add(a: int, b: int) -> int:
+    """
+    Dodawanie liczb
+    """
     return a + b
-def subtract (a: int , b: int) -> int:
+
+
+def subtract(a: int, b: int) -> int:
+    """
+    Odejmowanie liczb
+    """
     return a - b
-def multiply (a: int , b: int) -> int:
+
+
+def multiply(a: int, b: int) -> int:
+    """
+    Mnozenie liczb
+    """
     return a * b
-def divide (a: int , b: int) -> float :
+
+
+def divide(a: int, b: int) -> float:
+    """
+    Dzielenie liczb
+    """
     return a / b
