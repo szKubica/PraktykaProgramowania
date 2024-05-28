@@ -1,32 +1,30 @@
 """
-Kalkulator
+This module contains the utility functions for the calculator app.
 """
 
 
 def add(a: int, b: int) -> int:
     """
-    Dodawanie liczb
+    This function adds two numbers and returns the result.
     """
     return a + b
 
 
 def subtract(a: int, b: int) -> int:
     """
-    Odejmowanie liczb
-    """
+    This function subtracts two numbers and returns the result."""
     return a - b
 
 
 def multiply(a: int, b: int) -> int:
     """
-    Mnozenie liczb
+    This function multiplies two numbers and returns the result.
     """
     return a * b
 
 
 def divide(a: int, b: int) -> float:
     """
-    Dzielenie liczb
+    This function divides two numbers and returns the result.
     """
     return a / b
-    
